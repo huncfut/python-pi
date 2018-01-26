@@ -1,0 +1,13 @@
+{
+  "turnOn": [
+    1
+  ],
+  "turnOff": [
+    2,
+    5
+  ],
+  "turnHardOff": [
+    6,
+    8
+  ]
+}
