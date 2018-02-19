@@ -8,7 +8,8 @@ import threading
 
 comPins = [17, 18, 19, 20, 21, 22, 23, 24]
 GPIO.setmode(GPIO.BCM)
-
+for pin in comPins:
+    GPIO.setup(pin, GPIO.OUT)
 
 def turnOn(compNum):
     GPIO.output(compNum, 1)
